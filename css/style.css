@@ -1,0 +1,115 @@
+/*# sourceMappingURL=style.css.map */
+header.head{
+    background: #1f3b56;
+}
+
+.top {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+button.navbar-toggler {
+    border: none;
+}
+
+.collap-icon {
+    margin-right: 60px;
+}
+.booksession {
+    margin-left: 60px;
+    border-bottom-style: solid;
+    border-bottom-width: 0.1px;
+}
+@media screen and (max-width :425px){
+    .top {
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 10px;
+}
+    .collap-icon {
+    margin-right: 0;
+}
+    .booksession {
+    margin-left: 0;
+    border-bottom-style: solid;
+    border-bottom-width: 0;
+    padding: 5px;
+}
+img.OkayHumans_Horizontal_White {
+    width: 50%;
+    padding: 5px;
+}
+}
+.img {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-row-gap: 60px;
+    padding: 60px 0 20px;
+}
+.color-bar {
+    font-size: 0;
+}
+/* main css */
+
+img.storeFront {
+    width: 50%;
+    object-fit: contain;
+    padding: 10px;
+}
+.mainTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    color: #1f3b56;
+}
+p.wantHuman {
+    padding: 20px;
+    margin: 0;
+    font-size: 45px;
+    text-shadow: 1px 3px #f7c7c7;
+    font-weight: 800;
+    color: #1f3b56;
+}
+p.here {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    color: #1f3b56;
+}
+p.text {
+    margin: 0;
+    padding: 20px;
+    color: #1f3b56;
+    width: 52%;
+}
+button.pink-btn {
+    margin: 15px;
+    border: none;
+    background-color: #ecbff5;
+    padding: 5px 40px;
+    border-radius: 10px;
+    color: #1f3b56;
+    font-weight: 700;
+}
+@media screen and (max-width :425px){
+p.wantHuman {
+    text-align: center;
+}
+p.text {
+    width: 100%;
+}
+img.storeFront {
+    width: 90%;
+}
+}
+@media screen and (max-width :768px){
+p.wantHuman {
+    text-align: center;
+}
+}
